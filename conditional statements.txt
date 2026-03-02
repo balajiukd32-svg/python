@@ -1,0 +1,10 @@
+age = 20
+score = 85
+if age < 18:
+    print("You are under 18.")
+elif age >= 18 and score >= 90:
+    print("You are an adult with an A grade.")
+elif age >= 18 and score >= 80:
+    print("You are an adult with a B grade.")
+else:
+    print("You are an adult with a grade below B.")
